@@ -14,7 +14,8 @@ jobs:
       - name: Configure
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
+          check-latest: true
       - name: Checkout
         uses: actions/checkout@v3
       - name: Get package info
@@ -38,7 +39,8 @@ jobs:
       - name: Configure
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
+          check-latest: true
       - name: Checkout
         uses: actions/checkout@v3
       - name: Get package info
@@ -62,7 +64,8 @@ jobs:
       - name: Configure
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
+          check-latest: true
       - name: Checkout
         uses: actions/checkout@v3
       - name: Get package info
